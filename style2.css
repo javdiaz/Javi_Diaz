@@ -1,0 +1,141 @@
+/* main.css */
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%
+	font: inherit;	
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	color: #ffffff;
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+
+h2 strong {
+	font-weight: 100;
+}
+
+h3 {
+	font-family: Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 3px solid #555555;
+	margin: 20px 0 20px 0;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;	
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #AA0000;
+}
+
+
+.header {
+	background-color: #999999;
+}
+
+.tagline {
+	background-color: #000000;
+	padding: 20px 0 20px 0;
+}
+
+.projects, .skills, .stamps, .articles, .skills, .form {
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+
+.projects ul, .stamps ul, .articles ul, .skills ul {
+	list-style: none;
+}
+
+.projects li {
+	margin-bottom: 15px;
+
+}
+
+.stamps img {
+	float: left;
+	margin-right: 10px;
+}
+
+.stamps p {
+	padding-top: 70px;
+	margin-bottom: 110px;
+}
+
+.articles li {
+	margin-bottom: 10px;
+}
+
+.skills {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.skills li {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #555555;
+	color: #ffffff;
+	display: inline;
+	padding: 6px;
+}
+
+.form {
+	margin-bottom: 20px;
+}
+
+.form label, input {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px
+}
+
+.footer {
+	
+	background-color: #999999;
+	text-align: center;
+	padding: 20px;
+}
+
+
+.subhead {
+	margin-bottom: 15px;
+	font-style: italic;
+}
+
+
+
+
+
+
